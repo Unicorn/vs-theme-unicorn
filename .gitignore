@@ -1,0 +1,8 @@
+node_modules
+*.vsix
+docs/.sass-cache
+docs/_site
+.prettierignore
+.DS_Store
+*.log
+.vscode

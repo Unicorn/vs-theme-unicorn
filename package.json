@@ -1,0 +1,65 @@
+{
+	"name": "vs-theme-unicorn",
+	"version": "1.0.0",
+	"author": "Unicorn Agency <hello@unicornagency.com>",
+	"displayName": "Unicorn Theme",
+	"description": "Colorful, but easy on the eyes",
+	"publisher": "Unicorn",
+	"license": "MIT",
+	"icon": "logo.png",
+	"scripts": {
+		"build": "npm run build:dark",
+		"build:dark": "node src/dark/build"
+	},
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"galleryBanner": {
+		"color": "#FCEAE5",
+		"theme": "light"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"theme",
+		"dark",
+		"unicorn",
+		"warm"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Unicorn",
+				"uiTheme": "vs-dark",
+				"path": "./themes/unicorn.json"
+			},
+			{
+				"label": "Unicorn Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/unicorn-italic.json"
+			},
+			{
+				"label": "Unicorn Bold",
+				"uiTheme": "vs-dark",
+				"path": "./themes/unicorn-bold.json"
+			}
+		]
+	},
+	"devDependencies": {
+		"mustache": "^3.0.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Unicorn/vs-theme-unicorn"
+	},
+	"homepage": "https://github.com/Unicorn/vs-theme-unicorn",
+	"bugs": {
+		"url": "https://github.com/Unicorn/vs-theme-unicorn/issues"
+	},
+	"__metadata": {
+		"id": "20c56bee-df63-47bc-93f3-17ee3dfe2eb0",
+		"publisherDisplayName": "Unicorn",
+		"publisherId": "bb16b771-a865-4ee2-86ff-c3090312f3aa"
+	}
+}
